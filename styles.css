@@ -1,0 +1,104 @@
+body{
+    background-color: steelblue;
+    text-align: center;
+    color: white;
+}
+
+form div{
+    margin: 15px;
+}
+
+label{
+    margin-right: 10px;
+    width: 20%;
+}
+
+input{
+    width: 80%;
+    border-radius: 5px;
+}
+
+#create{
+    margin: 15px;
+    border-radius: 8px;
+    background-color: lightsteelblue;
+    width: 120px;
+    padding: 2px;
+    border-color: black;
+    border-style: solid;
+}
+
+#memeDiv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-top-style: solid;
+    border-top-color: lightsteelblue;
+}
+
+
+.container{
+    position: relative;
+    width: 310px;
+    height: 350px;
+    margin:20px;
+    overflow: hidden;
+    align-items: center;
+}
+
+.newImage{
+    width: 300px;
+    height:300px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color:black;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity:0.9;
+}
+
+.topText{
+    position:absolute;
+    width: 90%;
+    top:5%;
+    left: 5%;
+    text-align: center;
+    overflow-wrap: break-word;
+    hyphens: manual;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:2px 2px 0 black;
+    font-size: 1.2em;
+  
+}
+
+.bottomText{
+    position:absolute;
+    width: 90%;
+    bottom: 19%;
+    left: 5%;
+    text-align: center;
+    overflow-wrap: break-word;
+    hyphens: manual;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:2px 2px 0 black;
+    font-size: 1.2em;
+    
+}
+
+.deleteButton{
+    position: absolute;
+    top:320px;
+    left: 30%;
+    border-radius: 8px;
+    background-color: lightcoral;
+    padding: 2px;
+    width: 40%;
+    border-color: black;
+    border-style: solid;
+}
